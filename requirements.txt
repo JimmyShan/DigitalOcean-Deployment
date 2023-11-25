@@ -19,3 +19,7 @@ trio-websocket==0.11.1
 typing_extensions==4.8.0
 urllib3==2.1.0
 wsproto==1.2.0
+
+crispy-bootstrap5
+django-crispy-forms
+django-tinymce
