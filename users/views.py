@@ -28,3 +28,7 @@ def test_chrome():
 
     sleep(10)
     driver.close()
+
+def home(request):
+    test_chrome()
+    return render(request, 'blog/base.html')
