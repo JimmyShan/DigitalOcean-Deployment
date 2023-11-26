@@ -18,9 +18,9 @@ class RegisterView(View):
 
 def test_chrome():
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    # chrome_options.add_argument("--headless")
     driver = webdriver.Chrome(options=chrome_options)
-    driver.maximize_window()
+    # driver.maximize_window()
     driver.get("https://www.google.com")
     print(driver.service.path)
     print(driver.title)
